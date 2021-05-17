@@ -17,7 +17,7 @@ function setup(){
     cat = createSprite(700,650,20,20);
     cat.addAnimation("cat",catty);
     cat.scale = 0.3;
-    cat.debug = true;
+    
     cat.setCollider("rectangle",0,0,900,700);
 
     b_ground.scale = 0.85;
@@ -25,7 +25,7 @@ function setup(){
     mouse= createSprite(200,650,20,2);
     mouse.addAnimation("mouse", mousey);
     mouse.scale = 0.2;
-    mouse.debug = true;
+    
     mouse.setCollider("rectangle",0,0,700,900);
 
 
